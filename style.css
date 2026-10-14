@@ -1,0 +1,157 @@
+/* style.css */
+/* Reset básico para remover margens padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo com gradiente (roxo para branco) conforme o Figma */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #e0c3fc 0%, #ffffff 100%);
+    color: #333;
+}
+
+/* Container principal que centraliza tudo */
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Foto de perfil redonda */
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Tipografia */
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.cargo {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Estilo dos Botões (Página Inicial) */
+.botoes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.btn-principal {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.btn-principal:hover {
+    background-color: #C8A2C8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
+
+/* Redes Sociais */
+.redes-sociais {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.redes-sociais a {
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.redes-sociais a:hover {
+    color: #7b2cbf;
+}
+
+/* Estilos da Página "Sobre Mim" */
+.texto-sobre {
+    max-width: 600px;
+    line-height: 1.6;
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Estilos da Página "Projetos" */
+.grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.card-projeto {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.card-projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.imagem-projeto {
+    width: 100%;
+    height: 150px;
+    background-color: #D8BFD8;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.btn-projeto {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #E6E6FA;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.btn-projeto:hover {
+    background-color: #e0e0e0;
+}
