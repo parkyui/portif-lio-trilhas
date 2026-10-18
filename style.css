@@ -13,8 +13,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #e0c3fc 0%, #ffffff 100%);
-    color: #333;
+    background: linear-gradient(135deg, #210635 0%, #29264c 100%);
+    color: #f9cbdf;
 }
 
 /* Container principal que centraliza tudo */
@@ -34,7 +34,7 @@ body {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #ffffff;
+    border: 4px solid #794c9e;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
@@ -48,7 +48,7 @@ h1 {
 
 .cargo {
     font-size: 0.9rem;
-    color: #555;
+    color: #b89ac9;
     margin-bottom: 30px;
 }
 
@@ -65,18 +65,18 @@ h1 {
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.6);
-    border: 1px solid #ccc;
+    background-color: rgba(113, 8, 194, 0.6);
+    border: 1px solid #29264c;
     border-radius: 8px;
     text-decoration: none;
-    color: #333;
+    color: #cdb4db;
     font-weight: 500;
     transition: all 0.3s ease;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .btn-principal:hover {
-    background-color: #C8A2C8;
+    background-color: #7b54c0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     transform: translateY(-2px);
 }
@@ -89,7 +89,7 @@ h1 {
 }
 
 .redes-sociais a {
-    color: #333;
+    color: #111111;
     font-size: 1.5rem;
     transition: color 0.3s;
 }
@@ -102,7 +102,7 @@ h1 {
 .texto-sobre {
     max-width: 600px;
     line-height: 1.6;
-    color: #444;
+    color: #f9cbdf;
     margin-top: 20px;
 }
 
@@ -116,10 +116,10 @@ h1 {
 }
 
 .card-projeto {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(58, 16, 80, 0.692);
     border-radius: 8px;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #9030c8;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -135,7 +135,7 @@ h1 {
 .imagem-projeto {
     width: 100%;
     height: 150px;
-    background-color: #D8BFD8;
+    background-color: #3b003b;
     border-radius: 5px;
     object-fit: cover;
 }
@@ -153,5 +153,5 @@ h1 {
 }
 
 .btn-projeto:hover {
-    background-color: #e0e0e0;
+    background-color: #b2cff0;
 }
